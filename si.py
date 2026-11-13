@@ -1,6 +1,8 @@
-pr = int(input("Enter pr"))
-rt = int(input("Enter rate"))
-tm = int(input("Enter time"))
+import sys
+
+pr = int(sys.argv[1])
+rt = int(sys.argv[2])
+tm = int(sys.argv[3])
 
 si = (pr*rt*tm)/100
 
